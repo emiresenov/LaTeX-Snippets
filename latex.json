@@ -314,7 +314,7 @@
 
     "Overline/Bar": {
         "prefix": "bbar",
-        "body": "\\overline{$1}$0"
+        "body": "\\Bar{$1}$0"
     },
 
     "Brackets": {
@@ -549,6 +549,38 @@
     "Curly braces": {
         "prefix": "ccurly",
         "body": "\\left\\{ $0 \\right\\\\}"
-    }
+    },
+
+    "Supremum": {
+        "prefix": "ssupremum",
+        "body": "\\sup_{$0}"
+    },
+
+    "Infimum": {
+        "prefix": "iinfimum",
+        "body": "\\inf_{$0}"
+    },
+
+    "Expected value": {
+        "prefix": "eexpectation",
+        "body": "\\mathbb{E} \\left[ $0 \\right]"
+    },
+
+    "Gradient": {
+        "prefix": "ggrad",
+        "body": "\\nabla"
+    },
+
+    "Integral": {
+        "prefix": "iintegral",
+        "body": "\\int_{$1}^{$2} $0"
+    },
+
+    "Four spaces, math mode": {
+        "prefix": "qquad",
+        "body": "\\quad "
+    },
+
+
 
 }
