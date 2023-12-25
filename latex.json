@@ -8,6 +8,7 @@
             "\\usepackage{amsmath, amsthm, amssymb, amsfonts}",
             "\\usepackage{mathtools}",
             "\\usepackage{graphicx}",
+            "\\usepackage{bbm}",
             "\\newtheorem{theorem}{Theorem}",
             "\\newtheorem{definition}{Definition}",
             "\\newtheorem{corollary}{Corollary}[theorem]",
@@ -291,6 +292,16 @@
     "Math bold": {
         "prefix": "mmathbf",
         "body": "\\mathbf{$1}$0"
+    },
+
+    "Bold symbol": {
+        "prefix": "bbsym",
+        "body": "\\boldsymbol{$0}"
+    },
+
+    "Cool transpose": {
+        "prefix": "ttranspose",
+        "body": "^\\mathsf{T}"
     },
 
     "Itemize": {
@@ -581,6 +592,96 @@
         "body": "\\quad "
     },
 
+    "Subset": {
+        "prefix": "ssubset",
+        "body": "\\subset"
+    },
 
+    "Subset equality": {
+        "prefix": "eqssubset",
+        "body": "\\subseteq"
+    },
+
+    "Argmax": {
+        "prefix": "aargmax",
+        "body": "\\argmax_{$0}"
+    },
+
+    "xrightarrow": {
+        "prefix": "xxrightarrow",
+        "body": "\\xrightarrow[]{$0}"
+    },
+    
+    "pmatrix": {
+        "prefix": "ppmatrix",
+        "body": [
+            "\\begin{pmatrix}",
+            "    $0",
+            "\\end{pmatrix}"
+        ]
+    },
+
+    "bmatrix": {
+        "prefix": "bbmatrix",
+        "body": [
+            "\\begin{bmatrix}",
+            "    $0",
+            "\\end{bmatrix}"
+        ]
+    },
+
+    "entails": {
+        "prefix": "rrightarrow",
+        "body": "\\Rightarrow "
+    },
+
+    "Real numbers": {
+        "prefix": "rreals",
+        "body": "\\mathbb{R}"
+    },
+
+    "Vertical space": {
+        "prefix": "vvspace",
+        "body": [
+            "\\vspace{5mm}",
+            "",
+            "\\noindent $0"
+        ]
+    },
+
+    "Figure, no caption": {
+        "prefix": "ffignocap",
+        "body": [
+            "\\begin{figure}[h]",
+            "    \\centering",
+            "    \\includegraphics[width=0.99\\textwidth]{$1}",
+            "\\end{figure}",
+            "",
+            "$0"
+        ]
+    },
+
+    "Left arrow, assignment": {
+        "prefix": "lleftmapsto",
+        "body": "\\leftarrow"
+    },
+
+    "Left-right arrow": {
+        "prefix": "iiff",
+        "body": "\\Leftrightarrow"
+    },
+
+    "Indicator function": {
+        "prefix": "iindicatorfunction",
+        "body": "\\mathbbm{1}"
+    },
+
+    "If and only if": {
+        "prefix": "iiff",
+        "body": "\\iff"
+    }
+
+
+    
 
 }
